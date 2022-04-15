@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+header#container {
+    height: 65px;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
+.container .logo {
+    width: 25%;
+}
+
+.container .logo a {
+    color: #3cb878;
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 65px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.container .menu-top {
+    width: 65%;
+}
+
+.container .menu-top ul {
+    display: flex;
+}
+
+.container .menu-top ul li a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 20px;
+    line-height: 65px;
+}
+
+.container .menu-top ul li a.active {
+    color: #3cb878;
+}
+
+.container .menu-top ul li a:hover {
+    color: #3cb878;
+}
+
+.container #icon-nav {
+    display: flex;
+}
+
+.container #icon-nav a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    padding: 10px 10px;
+    line-height: 65px;
+}
+
+/* Slide */
+
+#slide {
+    width: 100%;
+    height: 560px;
+}
+
+.slide-item {
+    position: relative;
+}
+
+.slide-item h2 {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    font-size: 2rem;
+    color: #3333;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.slide-item h2 small {
+    display: block;
+    color: #3cb878;
+}
+
+#slide img {
+    width: 100%;
+}
+
+/* end Slide */
+
+/* Best Sell */
+
+#best-sell {
+    width: 100%;
+    margin-top: 60px;
+    display: block;
+}
+
+ul.product-list {
+    display: flex;
+}
+
+ul.product-list li {
+    width: 20%;
+    position: relative;
+}
+
+ul.product-list li a {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+}
+
+ul.product-list li p {
+    display: block;
+    color: #3cb878;
+}
+
+ul.product-list li img {
+    max-width: 220px;
+}
+
+ul.product-list li.introduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul.product-list li h2 {
+    text-transform: uppercase;
+    color: #000;
+}
+
+ul.product-list li small {
+    color: #3cb878;
+}
+
+ul.product-list li p {
+    color: #3cb878;
+    font-size: .9rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+ul.product-list li .best-sell {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul.product-list li .best-sell a {
+    margin-top: 3px;
+    margin-right: 27px;
+    color: #f8f8f8;
+    padding: 3px;
+}
+
+ul.product-list li:hover .best-sell a {
+    background: #3cb878;
+}
+/*end bess sell*/
+
+/* shiping */
+
+#shiping {
+    background: #f8f8f8;;
+    padding: 50px 0;
+    margin-top: 60px;
+}
+
+#shiping .container ul {
+    display: flex;
+}
+
+#shiping ul li {
+    width: 300px;
+}
+
+/*promotion*/
+
+#promotion {
+    background: red;
+}
+
+#promotion ul {
+    display: flex;
+}
+
+#featured small {
+    display: block;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #3cb787;
+}
+
+#featured h2 {
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul.product-list li {
+    margin-right: 10px;
+}
+
+#discount {
+    margin-top: 50px;
+    display: flex;
+    padding: 10px;
+}
+
+.discount-item {
+    width: 50%;
+    min-height: 200px;
+    background:url(../img/bgform.jpg)no-repeat;
+}
+
+.discount-item h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #ffff;
+}
+
+.discount-item small {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.discount-item .login input {
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.discount-item .login button {
+    padding: 5px;
+    background: #3cb878;
+    color: #000;
+}
+
+.brand {
+    background: #f8f8f8;
+    width: 50%;
+}
+
+.brand img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#payment {
+    color: #fff;
+    display: flex;
+    background: black;
+    padding: 5px;
+}
+
+.coppy-right {
+    width: 50%;
+}
+
+.coppy-right p {
+    text-align: center;
+}
